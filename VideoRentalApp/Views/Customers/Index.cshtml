@@ -1,0 +1,45 @@
+﻿
+@model IEnumerable<VideoRentalApp.Models.Customer>
+@{
+    ViewBag.Title = "Customer";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<body>
+    <h2>Customers</h2>
+
+    @if (!Model.Any())
+    {
+        <p>We don't have any customers yet.</p>
+    }
+    else
+    {
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>Customer</th>
+                    <th>Membership Name</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var customer in Model)
+                {
+                    <tr>
+                        <td>@Html.ActionLink(customer.Name, "Edit", "Customers", new { id = customer.Id }, null)</td>
+                        <td>@customer.Membership.Name</td>
+                        <td>
+                            @using (@Html.BeginForm("Delete", "Customers", new { id = customer.Id }))
+                            {
+                                @Html.AntiForgeryToken()
+                                <input type="submit" value="Delete" onclick="return confirm('Are you sure you wish to remove the customer?');" />
+                            }
+
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+
+    @Html.ActionLink("New Customer", "NewCustomer", "Customers", null, new { @class = "btn btn-primary" })
+</body>

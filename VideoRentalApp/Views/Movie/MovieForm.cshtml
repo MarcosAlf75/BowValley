@@ -1,0 +1,40 @@
+﻿@model VideoRentalApp.ViewModels.MovieViewModels
+@{
+    ViewBag.Title = "Movie Information";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@Model.MovieViewModelTitlePage</h2>
+
+@using (Html.BeginForm("Save", "Movie"))
+{
+    @Html.ValidationSummary(true, "Please Fix the following errors: ")
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Movie.Name)
+        @Html.TextBoxFor(m => m.Movie.Name, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Movie.Name)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Movie.ReleaseDate)
+        @Html.TextBoxFor(m => m.Movie.ReleaseDate, "{0:yyyy MMM dd}", new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Movie.ReleaseDate)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Movie.NumberInStock)
+        @Html.TextBoxFor(m => m.Movie.NumberInStock, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Movie.NumberInStock)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Movie.MovieTypeId)
+        @Html.DropDownListFor(m => m.Movie.MovieTypeId, new SelectList(Model.MovieTypes, "Id", "TypeDescription"), "Movie Type field is required", new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Movie.MovieTypeId)
+    </div>
+
+    @Html.HiddenFor(m => m.Movie.Id)
+    <button type="submit" class="btn btn-primary">Save</button>
+}
+@section scripts{
+    @Scripts.Render("~/bundles/jqueryval")
+}
