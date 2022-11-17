@@ -24,14 +24,19 @@ namespace VideoRentalApp.Controllers
         {
             _context.Dispose();
         }
-
+        [Authorize]
         public ViewResult Index()
         {
             var customers = _context.Customers.Include(c => c.Membership).ToList();
-            return View(customers);
+
+            if (User.IsInRole("CanManageCustomers"))
+                return View("IndexAdmin", customers);
+
+            return View("indexUser",customers);
         }
 
-        public ViewResult NewCustomer()
+		[Authorize(Roles = Role.CanManageCustomers)]
+		public ViewResult NewCustomer()
         {
             var membership = _context.Memberships.ToList();
             Customer customer = new Customer();
@@ -44,7 +49,9 @@ namespace VideoRentalApp.Controllers
             return View("CustomerForm", viewModel);  //can not pass just one model, 
                                       //need to pass Customer model as well
         }
-        [HttpPost]
+
+		[Authorize(Roles = Role.CanManageCustomers)]
+		[HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Save(Customer customer)
         {
@@ -74,9 +81,12 @@ namespace VideoRentalApp.Controllers
                 customerInDB.isSubscribed = customer.isSubscribed;
             }
             _context.SaveChanges();
-            return RedirectToAction("Index", "Customers");
+
+			var customers = _context.Customers.Include(c => c.Membership).ToList();
+            return View("IndexAdmin", customers);
         }
-        public ActionResult Edit(int Id)
+		[Authorize(Roles = Role.CanManageCustomers)]
+		public ActionResult Edit(int Id)
         {
             var membership = _context.Memberships.ToList();
             var customer = _context.Customers.SingleOrDefault(c => c.Id == Id);
@@ -93,7 +103,8 @@ namespace VideoRentalApp.Controllers
                                     // rename: newcustomer View to CustomerForm View
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int? Id)
+		[Authorize(Roles = Role.CanManageCustomers)]
+		public ActionResult Delete(int? Id)
         {
             var customer = _context.Customers.SingleOrDefault(c => c.Id == Id);
             if (customer == null)
@@ -103,7 +114,7 @@ namespace VideoRentalApp.Controllers
 
             var customers = _context.Customers.Include(c => c.Membership).ToList();
 
-            return View("Index", customers);
+            return View("IndexAdmin", customers);
         }
     }
 }
