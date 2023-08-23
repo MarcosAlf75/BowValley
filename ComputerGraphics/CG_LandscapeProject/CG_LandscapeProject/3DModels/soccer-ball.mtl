@@ -1,0 +1,11 @@
+
+newmtl Standard(Clone)
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.6 0.6 0.6
+d  1.0
+Ns  0.0
+illum 3
+map_Kd C:\Documents and Settings\glenn\Desktop\soccer-ball.jpg
+
+

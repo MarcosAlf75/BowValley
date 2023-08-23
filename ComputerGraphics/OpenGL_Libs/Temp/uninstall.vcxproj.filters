@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\Temp\CMakeFiles\c5f99de693f463f651b579fa7fc8e20e\uninstall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\Temp\CMakeFiles\uninstall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{134D25B7-2702-35CF-9845-3BCC2502F48A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/uninstall.dir
+C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/UpdateAssimpLibsDebugSymbolsAndDLLs.dir
+C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/INSTALL.dir
+C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/ALL_BUILD.dir
+C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/ZERO_CHECK.dir
+C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/contrib/zlib/CMakeFiles/zlibstatic.dir
+C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/contrib/zlib/CMakeFiles/INSTALL.dir
+C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/contrib/zlib/CMakeFiles/ALL_BUILD.dir
+C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/code/CMakeFiles/assimp.dir
+C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/code/CMakeFiles/INSTALL.dir
+C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/test/CMakeFiles/unit.dir
+C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/test/CMakeFiles/INSTALL.dir
+C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/test/headercheck/CMakeFiles/INSTALL.dir

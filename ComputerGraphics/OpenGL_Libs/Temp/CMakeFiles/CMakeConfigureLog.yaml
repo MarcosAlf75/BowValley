@@ -1,0 +1,536 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/VisualStudio/BowValley/cmake-3.26.3-windows-x86_64/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:59 (PROJECT)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/VisualStudio/BowValley/cmake-3.26.3-windows-x86_64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/VisualStudio/BowValley/cmake-3.26.3-windows-x86_64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/VisualStudio/BowValley/cmake-3.26.3-windows-x86_64/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:59 (PROJECT)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.4.1+9a89d02ff for .NET Framework
+      Build started 2023-04-05 9:55:18 PM.
+      Project "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x86\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.49
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/VisualStudio/BowValley/cmake-3.26.3-windows-x86_64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/VisualStudio/BowValley/cmake-3.26.3-windows-x86_64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/VisualStudio/BowValley/cmake-3.26.3-windows-x86_64/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:59 (PROJECT)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.4.1+9a89d02ff for .NET Framework
+      Build started 2023-04-05 9:55:20 PM.
+      Project "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x86\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.12
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/VisualStudio/BowValley/cmake-3.26.3-windows-x86_64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/VisualStudio/BowValley/cmake-3.26.3-windows-x86_64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:59 (PROJECT)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/CMakeScratch/TryCompile-2mm3zm"
+      binary: "C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/CMakeScratch/TryCompile-2mm3zm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/CMakeScratch/TryCompile-2mm3zm
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2be2b.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+        Build started 2023-04-05 9:55:21 PM.
+        Project "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-2mm3zm\\cmTC_2be2b.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_2be2b.dir\\Debug\\".
+          Creating directory "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-2mm3zm\\Debug\\".
+          Creating directory "cmTC_2be2b.dir\\Debug\\cmTC_2be2b.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_2be2b.dir\\Debug\\cmTC_2be2b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2be2b.dir\\Debug\\\\" /Fd"cmTC_2be2b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\VisualStudio\\BowValley\\cmake-3.26.3-windows-x86_64\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x86
+          CMakeCCompilerABI.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2be2b.dir\\Debug\\\\" /Fd"cmTC_2be2b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\VisualStudio\\BowValley\\cmake-3.26.3-windows-x86_64\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-2mm3zm\\Debug\\cmTC_2be2b.exe" /INCREMENTAL /ILK:"cmTC_2be2b.dir\\Debug\\cmTC_2be2b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/CMakeScratch/TryCompile-2mm3zm/Debug/cmTC_2be2b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/CMakeScratch/TryCompile-2mm3zm/Debug/cmTC_2be2b.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_2be2b.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_2be2b.vcxproj -> C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-2mm3zm\\Debug\\cmTC_2be2b.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_2be2b.dir\\Debug\\cmTC_2be2b.tlog\\unsuccessfulbuild".
+          Touching "cmTC_2be2b.dir\\Debug\\cmTC_2be2b.tlog\\cmTC_2be2b.lastbuildstate".
+        Done Building Project "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-2mm3zm\\cmTC_2be2b.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.11
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/VisualStudio/BowValley/cmake-3.26.3-windows-x86_64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/VisualStudio/BowValley/cmake-3.26.3-windows-x86_64/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:59 (PROJECT)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/CMakeScratch/TryCompile-2tckds"
+      binary: "C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/CMakeScratch/TryCompile-2tckds"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/CMakeScratch/TryCompile-2tckds
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_7eb19.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+        Build started 2023-04-05 9:55:23 PM.
+        Project "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-2tckds\\cmTC_7eb19.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_7eb19.dir\\Debug\\".
+          Creating directory "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-2tckds\\Debug\\".
+          Creating directory "cmTC_7eb19.dir\\Debug\\cmTC_7eb19.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_7eb19.dir\\Debug\\cmTC_7eb19.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7eb19.dir\\Debug\\\\" /Fd"cmTC_7eb19.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /analyze- /errorReport:queue "C:\\VisualStudio\\BowValley\\cmake-3.26.3-windows-x86_64\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x86
+          CMakeCXXCompilerABI.cpp
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7eb19.dir\\Debug\\\\" /Fd"cmTC_7eb19.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /analyze- /errorReport:queue "C:\\VisualStudio\\BowValley\\cmake-3.26.3-windows-x86_64\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-2tckds\\Debug\\cmTC_7eb19.exe" /INCREMENTAL /ILK:"cmTC_7eb19.dir\\Debug\\cmTC_7eb19.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/CMakeScratch/TryCompile-2tckds/Debug/cmTC_7eb19.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/CMakeScratch/TryCompile-2tckds/Debug/cmTC_7eb19.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_7eb19.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_7eb19.vcxproj -> C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-2tckds\\Debug\\cmTC_7eb19.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_7eb19.dir\\Debug\\cmTC_7eb19.tlog\\unsuccessfulbuild".
+          Touching "cmTC_7eb19.dir\\Debug\\cmTC_7eb19.tlog\\cmTC_7eb19.lastbuildstate".
+        Done Building Project "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-2tckds\\cmTC_7eb19.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.03
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/VisualStudio/BowValley/cmake-3.26.3-windows-x86_64/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "contrib/zlib/CMakeLists.txt:35 (check_include_file)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/CMakeScratch/TryCompile-k4sbjy"
+      binary: "C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/CMakeScratch/TryCompile-k4sbjy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/cmake-modules"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/CMakeScratch/TryCompile-k4sbjy
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4398d.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+        Build started 2023-04-05 9:55:25 PM.
+        Project "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-k4sbjy\\cmTC_4398d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_4398d.dir\\Debug\\".
+          Creating directory "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-k4sbjy\\Debug\\".
+          Creating directory "cmTC_4398d.dir\\Debug\\cmTC_4398d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_4398d.dir\\Debug\\cmTC_4398d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4398d.dir\\Debug\\\\" /Fd"cmTC_4398d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-k4sbjy\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x86
+          CheckIncludeFile.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4398d.dir\\Debug\\\\" /Fd"cmTC_4398d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-k4sbjy\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-k4sbjy\\Debug\\cmTC_4398d.exe" /INCREMENTAL /ILK:"cmTC_4398d.dir\\Debug\\cmTC_4398d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/CMakeScratch/TryCompile-k4sbjy/Debug/cmTC_4398d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/CMakeScratch/TryCompile-k4sbjy/Debug/cmTC_4398d.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_4398d.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_4398d.vcxproj -> C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-k4sbjy\\Debug\\cmTC_4398d.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_4398d.dir\\Debug\\cmTC_4398d.tlog\\unsuccessfulbuild".
+          Touching "cmTC_4398d.dir\\Debug\\cmTC_4398d.tlog\\cmTC_4398d.lastbuildstate".
+        Done Building Project "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-k4sbjy\\cmTC_4398d.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.94
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/VisualStudio/BowValley/cmake-3.26.3-windows-x86_64/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "contrib/zlib/CMakeLists.txt:36 (check_include_file)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/CMakeScratch/TryCompile-w5mht9"
+      binary: "C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/CMakeScratch/TryCompile-w5mht9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/cmake-modules"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/CMakeScratch/TryCompile-w5mht9
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_677b4.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+        Build started 2023-04-05 9:55:26 PM.
+        Project "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-w5mht9\\cmTC_677b4.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_677b4.dir\\Debug\\".
+          Creating directory "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-w5mht9\\Debug\\".
+          Creating directory "cmTC_677b4.dir\\Debug\\cmTC_677b4.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_677b4.dir\\Debug\\cmTC_677b4.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_677b4.dir\\Debug\\\\" /Fd"cmTC_677b4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-w5mht9\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x86
+          CheckIncludeFile.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_677b4.dir\\Debug\\\\" /Fd"cmTC_677b4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-w5mht9\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-w5mht9\\Debug\\cmTC_677b4.exe" /INCREMENTAL /ILK:"cmTC_677b4.dir\\Debug\\cmTC_677b4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/CMakeScratch/TryCompile-w5mht9/Debug/cmTC_677b4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/CMakeScratch/TryCompile-w5mht9/Debug/cmTC_677b4.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_677b4.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_677b4.vcxproj -> C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-w5mht9\\Debug\\cmTC_677b4.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_677b4.dir\\Debug\\cmTC_677b4.tlog\\unsuccessfulbuild".
+          Touching "cmTC_677b4.dir\\Debug\\cmTC_677b4.tlog\\cmTC_677b4.lastbuildstate".
+        Done Building Project "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-w5mht9\\cmTC_677b4.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.91
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/VisualStudio/BowValley/cmake-3.26.3-windows-x86_64/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "contrib/zlib/CMakeLists.txt:37 (check_include_file)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/CMakeScratch/TryCompile-okm6di"
+      binary: "C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/CMakeScratch/TryCompile-okm6di"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/cmake-modules"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/CMakeScratch/TryCompile-okm6di
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0bbb9.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+        Build started 2023-04-05 9:55:28 PM.
+        Project "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-okm6di\\cmTC_0bbb9.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_0bbb9.dir\\Debug\\".
+          Creating directory "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-okm6di\\Debug\\".
+          Creating directory "cmTC_0bbb9.dir\\Debug\\cmTC_0bbb9.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_0bbb9.dir\\Debug\\cmTC_0bbb9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0bbb9.dir\\Debug\\\\" /Fd"cmTC_0bbb9.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-okm6di\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x86
+          CheckIncludeFile.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0bbb9.dir\\Debug\\\\" /Fd"cmTC_0bbb9.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-okm6di\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-okm6di\\Debug\\cmTC_0bbb9.exe" /INCREMENTAL /ILK:"cmTC_0bbb9.dir\\Debug\\cmTC_0bbb9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/CMakeScratch/TryCompile-okm6di/Debug/cmTC_0bbb9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/CMakeScratch/TryCompile-okm6di/Debug/cmTC_0bbb9.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_0bbb9.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_0bbb9.vcxproj -> C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-okm6di\\Debug\\cmTC_0bbb9.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_0bbb9.dir\\Debug\\cmTC_0bbb9.tlog\\unsuccessfulbuild".
+          Touching "cmTC_0bbb9.dir\\Debug\\cmTC_0bbb9.tlog\\cmTC_0bbb9.lastbuildstate".
+        Done Building Project "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-okm6di\\cmTC_0bbb9.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.90
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/VisualStudio/BowValley/cmake-3.26.3-windows-x86_64/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "C:/VisualStudio/BowValley/cmake-3.26.3-windows-x86_64/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "contrib/zlib/CMakeLists.txt:55 (check_type_size)"
+    checks:
+      - "Check size of off64_t"
+    directories:
+      source: "C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/CMakeScratch/TryCompile-z2acd1"
+      binary: "C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/CMakeScratch/TryCompile-z2acd1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/cmake-modules"
+    buildResult:
+      variable: "HAVE_OFF64_T"
+      cached: true
+      stdout: |
+        Change Dir: C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/CMakeScratch/TryCompile-z2acd1
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_66fd4.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+        Build started 2023-04-05 9:55:29 PM.
+        Project "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-z2acd1\\cmTC_66fd4.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_66fd4.dir\\Debug\\".
+          Creating directory "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-z2acd1\\Debug\\".
+          Creating directory "cmTC_66fd4.dir\\Debug\\cmTC_66fd4.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_66fd4.dir\\Debug\\cmTC_66fd4.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_66fd4.dir\\Debug\\\\" /Fd"cmTC_66fd4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-z2acd1\\OFF64_T.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x86
+          OFF64_T.c
+        C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-z2acd1\\OFF64_T.c(29,12): error C2065: 'off64_t': undeclared identifier [C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-z2acd1\\cmTC_66fd4.vcxproj]
+        C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-z2acd1\\OFF64_T.c(30,12): error C2065: 'off64_t': undeclared identifier [C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-z2acd1\\cmTC_66fd4.vcxproj]
+        C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-z2acd1\\OFF64_T.c(31,12): error C2065: 'off64_t': undeclared identifier [C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-z2acd1\\cmTC_66fd4.vcxproj]
+        C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-z2acd1\\OFF64_T.c(32,12): error C2065: 'off64_t': undeclared identifier [C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-z2acd1\\cmTC_66fd4.vcxproj]
+        C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-z2acd1\\OFF64_T.c(33,12): error C2065: 'off64_t': undeclared identifier [C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-z2acd1\\cmTC_66fd4.vcxproj]
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_66fd4.dir\\Debug\\\\" /Fd"cmTC_66fd4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-z2acd1\\OFF64_T.c"
+        Done Building Project "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-z2acd1\\cmTC_66fd4.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-z2acd1\\cmTC_66fd4.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-z2acd1\\OFF64_T.c(29,12): error C2065: 'off64_t': undeclared identifier [C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-z2acd1\\cmTC_66fd4.vcxproj]
+          C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-z2acd1\\OFF64_T.c(30,12): error C2065: 'off64_t': undeclared identifier [C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-z2acd1\\cmTC_66fd4.vcxproj]
+          C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-z2acd1\\OFF64_T.c(31,12): error C2065: 'off64_t': undeclared identifier [C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-z2acd1\\cmTC_66fd4.vcxproj]
+          C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-z2acd1\\OFF64_T.c(32,12): error C2065: 'off64_t': undeclared identifier [C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-z2acd1\\cmTC_66fd4.vcxproj]
+          C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-z2acd1\\OFF64_T.c(33,12): error C2065: 'off64_t': undeclared identifier [C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-z2acd1\\cmTC_66fd4.vcxproj]
+        
+            0 Warning(s)
+            5 Error(s)
+        
+        Time Elapsed 00:00:00.61
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/VisualStudio/BowValley/cmake-3.26.3-windows-x86_64/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "contrib/zlib/CMakeLists.txt:64 (check_function_exists)"
+    checks:
+      - "Looking for fseeko"
+    directories:
+      source: "C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/CMakeScratch/TryCompile-2k3vhi"
+      binary: "C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/CMakeScratch/TryCompile-2k3vhi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/cmake-modules"
+    buildResult:
+      variable: "HAVE_FSEEKO"
+      cached: true
+      stdout: |
+        Change Dir: C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/CMakeScratch/TryCompile-2k3vhi
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_28833.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+        Build started 2023-04-05 9:55:30 PM.
+        Project "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-2k3vhi\\cmTC_28833.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_28833.dir\\Debug\\".
+          Creating directory "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-2k3vhi\\Debug\\".
+          Creating directory "cmTC_28833.dir\\Debug\\cmTC_28833.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_28833.dir\\Debug\\cmTC_28833.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_28833.dir\\Debug\\\\" /Fd"cmTC_28833.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-2k3vhi\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x86
+          CheckFunctionExists.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_28833.dir\\Debug\\\\" /Fd"cmTC_28833.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-2k3vhi\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-2k3vhi\\Debug\\cmTC_28833.exe" /INCREMENTAL /ILK:"cmTC_28833.dir\\Debug\\cmTC_28833.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/CMakeScratch/TryCompile-2k3vhi/Debug/cmTC_28833.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/CMakeScratch/TryCompile-2k3vhi/Debug/cmTC_28833.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_28833.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: unresolved external symbol _fseeko referenced in function _main [C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-2k3vhi\\cmTC_28833.vcxproj]
+        C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-2k3vhi\\Debug\\cmTC_28833.exe : fatal error LNK1120: 1 unresolved externals [C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-2k3vhi\\cmTC_28833.vcxproj]
+        Done Building Project "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-2k3vhi\\cmTC_28833.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-2k3vhi\\cmTC_28833.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          CheckFunctionExists.obj : error LNK2019: unresolved external symbol _fseeko referenced in function _main [C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-2k3vhi\\cmTC_28833.vcxproj]
+          C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-2k3vhi\\Debug\\cmTC_28833.exe : fatal error LNK1120: 1 unresolved externals [C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-2k3vhi\\cmTC_28833.vcxproj]
+        
+            0 Warning(s)
+            2 Error(s)
+        
+        Time Elapsed 00:00:00.85
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/VisualStudio/BowValley/cmake-3.26.3-windows-x86_64/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "contrib/zlib/CMakeLists.txt:72 (check_include_file)"
+    checks:
+      - "Looking for unistd.h"
+    directories:
+      source: "C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/CMakeScratch/TryCompile-be0u4c"
+      binary: "C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/CMakeScratch/TryCompile-be0u4c"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/cmake-modules"
+    buildResult:
+      variable: "Z_HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/CMakeScratch/TryCompile-be0u4c
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0937c.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+        Build started 2023-04-05 9:55:31 PM.
+        Project "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-be0u4c\\cmTC_0937c.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_0937c.dir\\Debug\\".
+          Creating directory "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-be0u4c\\Debug\\".
+          Creating directory "cmTC_0937c.dir\\Debug\\cmTC_0937c.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_0937c.dir\\Debug\\cmTC_0937c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0937c.dir\\Debug\\\\" /Fd"cmTC_0937c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-be0u4c\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x86
+          CheckIncludeFile.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0937c.dir\\Debug\\\\" /Fd"cmTC_0937c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-be0u4c\\CheckIncludeFile.c"
+        C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-be0u4c\\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-be0u4c\\cmTC_0937c.vcxproj]
+        Done Building Project "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-be0u4c\\cmTC_0937c.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-be0u4c\\cmTC_0937c.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-be0u4c\\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\\VisualStudio\\BowValley\\ComputerGraphics\\OpenGL\\OpenGL_Libs\\Temp\\CMakeFiles\\CMakeScratch\\TryCompile-be0u4c\\cmTC_0937c.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.56
+        
+      exitCode: 1
+...

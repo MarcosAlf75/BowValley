@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/contrib/zlib/CMakeLists.txt
+C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/contrib/zlib/zconf.h.cmakein
+C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/contrib/zlib/zlib.pc.cmakein
+C:/VisualStudio/BowValley/cmake-3.26.3-windows-x86_64/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake
+C:/VisualStudio/BowValley/cmake-3.26.3-windows-x86_64/share/cmake-3.26/Modules/CheckFunctionExists.cmake
+C:/VisualStudio/BowValley/cmake-3.26.3-windows-x86_64/share/cmake-3.26/Modules/CheckIncludeFile.cmake
+C:/VisualStudio/BowValley/cmake-3.26.3-windows-x86_64/share/cmake-3.26/Modules/CheckIncludeFileCXX.cmake
+C:/VisualStudio/BowValley/cmake-3.26.3-windows-x86_64/share/cmake-3.26/Modules/CheckTypeSize.cmake
+C:/VisualStudio/BowValley/cmake-3.26.3-windows-x86_64/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake

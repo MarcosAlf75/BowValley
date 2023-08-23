@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{54D0B691-89EE-374D-AE8B-B1FF72D7CBDA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>Win32</Platform>
+    <ProjectName>UpdateAssimpLibsDebugSymbolsAndDLLs</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\Temp\include;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\Temp;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\.;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\zlib;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\Temp\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>							</Message>
+      <Command>setlocal
+C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\bin\cmake.exe -E copy C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/code/Release/assimp-vc143-mt.dll C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/bin32/assimp-vc143-mt.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\bin\cmake.exe -E copy C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/code/Release/assimp-vc143-mt.exp C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/lib32/assimp-vc143-mt.exp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\bin\cmake.exe -E copy C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/code/Release/assimp-vc143-mt.lib C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/lib32/assimp-vc143-mt.lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\bin\cmake.exe -E copy C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/code/Debug/assimp-vc143-mtd.dll C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/bin32/assimp-vc143-mtd.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\bin\cmake.exe -E copy C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/code/Debug/assimp-vc143-mtd.exp C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/lib32/assimp-vc143-mtd.exp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\bin\cmake.exe -E copy C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/code/Debug/assimp-vc143-mtd.ilk C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/lib32/assimp-vc143-mtd.ilk
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\bin\cmake.exe -E copy C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/code/Debug/assimp-vc143-mtd.lib C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/lib32/assimp-vc143-mtd.lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\bin\cmake.exe -E copy C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/code/Debug/assimp-vc143-mtd.pdb C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/lib32/assimp-vc143-mtd.pdb
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\Temp\include;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\Temp;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\.;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\zlib;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\Temp\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>							</Message>
+      <Command>setlocal
+C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\bin\cmake.exe -E copy C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/code/Release/assimp-vc143-mt.dll C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/bin32/assimp-vc143-mt.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\bin\cmake.exe -E copy C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/code/Release/assimp-vc143-mt.exp C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/lib32/assimp-vc143-mt.exp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\bin\cmake.exe -E copy C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/code/Release/assimp-vc143-mt.lib C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/lib32/assimp-vc143-mt.lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\bin\cmake.exe -E copy C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/code/Debug/assimp-vc143-mtd.dll C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/bin32/assimp-vc143-mtd.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\bin\cmake.exe -E copy C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/code/Debug/assimp-vc143-mtd.exp C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/lib32/assimp-vc143-mtd.exp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\bin\cmake.exe -E copy C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/code/Debug/assimp-vc143-mtd.ilk C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/lib32/assimp-vc143-mtd.ilk
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\bin\cmake.exe -E copy C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/code/Debug/assimp-vc143-mtd.lib C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/lib32/assimp-vc143-mtd.lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\bin\cmake.exe -E copy C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/code/Debug/assimp-vc143-mtd.pdb C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/lib32/assimp-vc143-mtd.pdb
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\Temp\include;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\Temp;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\.;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\zlib;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\Temp\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>							</Message>
+      <Command>setlocal
+C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\bin\cmake.exe -E copy C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/code/Release/assimp-vc143-mt.dll C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/bin32/assimp-vc143-mt.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\bin\cmake.exe -E copy C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/code/Release/assimp-vc143-mt.exp C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/lib32/assimp-vc143-mt.exp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\bin\cmake.exe -E copy C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/code/Release/assimp-vc143-mt.lib C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/lib32/assimp-vc143-mt.lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\bin\cmake.exe -E copy C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/code/Debug/assimp-vc143-mtd.dll C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/bin32/assimp-vc143-mtd.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\bin\cmake.exe -E copy C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/code/Debug/assimp-vc143-mtd.exp C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/lib32/assimp-vc143-mtd.exp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\bin\cmake.exe -E copy C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/code/Debug/assimp-vc143-mtd.ilk C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/lib32/assimp-vc143-mtd.ilk
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\bin\cmake.exe -E copy C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/code/Debug/assimp-vc143-mtd.lib C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/lib32/assimp-vc143-mtd.lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\bin\cmake.exe -E copy C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/code/Debug/assimp-vc143-mtd.pdb C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/lib32/assimp-vc143-mtd.pdb
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\Temp\include;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\Temp;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\.;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\zlib;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\Temp\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>							</Message>
+      <Command>setlocal
+C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\bin\cmake.exe -E copy C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/code/Release/assimp-vc143-mt.dll C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/bin32/assimp-vc143-mt.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\bin\cmake.exe -E copy C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/code/Release/assimp-vc143-mt.exp C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/lib32/assimp-vc143-mt.exp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\bin\cmake.exe -E copy C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/code/Release/assimp-vc143-mt.lib C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/lib32/assimp-vc143-mt.lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\bin\cmake.exe -E copy C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/code/Debug/assimp-vc143-mtd.dll C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/bin32/assimp-vc143-mtd.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\bin\cmake.exe -E copy C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/code/Debug/assimp-vc143-mtd.exp C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/lib32/assimp-vc143-mtd.exp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\bin\cmake.exe -E copy C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/code/Debug/assimp-vc143-mtd.ilk C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/lib32/assimp-vc143-mtd.ilk
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\bin\cmake.exe -E copy C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/code/Debug/assimp-vc143-mtd.lib C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/lib32/assimp-vc143-mtd.lib
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\bin\cmake.exe -E copy C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/code/Debug/assimp-vc143-mtd.pdb C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/lib32/assimp-vc143-mtd.pdb
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\bin\cmake.exe -SC:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP -BC:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp --check-stamp-file C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\assimp.pc.in;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\cmake-modules\FindPkgMacros.cmake;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\cmake-modules\FindZLIB.cmake;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\cmake-modules\PrecompiledHeader.cmake;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\cmake-modules\assimp-plain-config.cmake.in;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\cmake-modules\cmake_uninstall.cmake.in;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\config.h.in;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\revision.h.in;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\Temp\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\Temp\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\Temp\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\Temp\CMakeFiles\3.26.3\CMakeSystem.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CheckFunctionExists.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CheckIncludeFileCXX.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CheckTypeSize.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\FindPkgConfig.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\Temp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\bin\cmake.exe -SC:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP -BC:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp --check-stamp-file C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\assimp.pc.in;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\cmake-modules\FindPkgMacros.cmake;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\cmake-modules\FindZLIB.cmake;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\cmake-modules\PrecompiledHeader.cmake;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\cmake-modules\assimp-plain-config.cmake.in;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\cmake-modules\cmake_uninstall.cmake.in;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\config.h.in;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\revision.h.in;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\Temp\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\Temp\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\Temp\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\Temp\CMakeFiles\3.26.3\CMakeSystem.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CheckFunctionExists.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CheckIncludeFileCXX.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CheckTypeSize.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\FindPkgConfig.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\Temp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\bin\cmake.exe -SC:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP -BC:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp --check-stamp-file C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\assimp.pc.in;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\cmake-modules\FindPkgMacros.cmake;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\cmake-modules\FindZLIB.cmake;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\cmake-modules\PrecompiledHeader.cmake;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\cmake-modules\assimp-plain-config.cmake.in;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\cmake-modules\cmake_uninstall.cmake.in;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\config.h.in;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\revision.h.in;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\Temp\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\Temp\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\Temp\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\Temp\CMakeFiles\3.26.3\CMakeSystem.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CheckFunctionExists.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CheckIncludeFileCXX.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CheckTypeSize.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\FindPkgConfig.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\Temp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\bin\cmake.exe -SC:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/ASSIMP -BC:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp --check-stamp-file C:/VisualStudio/BowValley/ComputerGraphics/OpenGL/OpenGL_Libs/Temp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\assimp.pc.in;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\cmake-modules\FindPkgMacros.cmake;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\cmake-modules\FindZLIB.cmake;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\cmake-modules\PrecompiledHeader.cmake;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\cmake-modules\assimp-plain-config.cmake.in;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\cmake-modules\cmake_uninstall.cmake.in;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\config.h.in;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\revision.h.in;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\Temp\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\Temp\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\Temp\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\Temp\CMakeFiles\3.26.3\CMakeSystem.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CheckFunctionExists.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CheckIncludeFileCXX.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\CheckTypeSize.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\FindPkgConfig.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\VisualStudio\BowValley\cmake-3.26.3-windows-x86_64\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\Temp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\Temp\ZERO_CHECK.vcxproj">
+      <Project>{EF447F71-0BA1-3CA4-BB35-127147C56154}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

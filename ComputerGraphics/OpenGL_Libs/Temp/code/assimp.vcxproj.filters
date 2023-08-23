@@ -1,0 +1,1967 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\Assimp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\CApi\CInterfaceIOWrapper.cpp">
+      <Filter>CApi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\Compression.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\BaseImporter.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\BaseProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\PostStepRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\ImporterRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\DefaultIOStream.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\IOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\DefaultIOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\ZipArchiveIOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\Importer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\SGSpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\VertexTriangleAdjacency.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\SpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\SceneCombiner.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\ScenePreprocessor.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\SkeletonMeshBuilder.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\StandardShapes.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\TargetAnimation.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\RemoveComments.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\Subdivision.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\scene.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\Bitmap.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\Version.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\CreateAnimMesh.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\simd.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\material.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\AssertHandler.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\Exceptional.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\Base64.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\DefaultLogger.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\Exporter.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\CApi\AssimpCExport.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\CalcTangentsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\ComputeUVMappingProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\ConvertToLHProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\EmbedTexturesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\FindDegenerates.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\FindInstancesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\FindInvalidDataProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\FixNormalsStep.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\DropFaceNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\GenFaceNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\GenVertexNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\PretransformVertices.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\ImproveCacheLocality.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\JoinVerticesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\LimitBoneWeightsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\RemoveRedundantMaterials.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\RemoveVCProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\SortByPTypeProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\SplitLargeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\TextureTransform.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\TriangulateProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\ValidateDataStructure.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\OptimizeGraph.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\OptimizeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\DeboneProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\ProcessHelper.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\MakeVerboseFormat.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\ScaleProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\ArmaturePopulate.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\GenBoundingBoxesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\SplitByBoneCountProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Material\MaterialSystem.cpp">
+      <Filter>MaterialSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\STEPParser\STEPFileReader.cpp">
+      <Filter>STEPParser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\STEPParser\STEPFileEncoding.cpp">
+      <Filter>STEPParser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\AMF\AMFImporter.cpp">
+      <Filter>AssetLib\AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\AMF\AMFImporter_Geometry.cpp">
+      <Filter>AssetLib\AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\AMF\AMFImporter_Material.cpp">
+      <Filter>AssetLib\AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\AMF\AMFImporter_Postprocess.cpp">
+      <Filter>AssetLib\AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\3DS\3DSConverter.cpp">
+      <Filter>AssetLib\3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\3DS\3DSLoader.cpp">
+      <Filter>AssetLib\3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\AC\ACLoader.cpp">
+      <Filter>AssetLib\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\ASE\ASELoader.cpp">
+      <Filter>AssetLib\ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\ASE\ASEParser.cpp">
+      <Filter>AssetLib\ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Assbin\AssbinLoader.cpp">
+      <Filter>AssetLib\ASSBIN</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\B3D\B3DImporter.cpp">
+      <Filter>AssetLib\B3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\BVH\BVHLoader.cpp">
+      <Filter>AssetLib\BVH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Collada\ColladaHelper.cpp">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Collada\ColladaLoader.cpp">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Collada\ColladaParser.cpp">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\DXF\DXFLoader.cpp">
+      <Filter>AssetLib\DXF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\CSM\CSMLoader.cpp">
+      <Filter>AssetLib\CSM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\HMP\HMPLoader.cpp">
+      <Filter>AssetLib\HMP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Irr\IRRMeshLoader.cpp">
+      <Filter>AssetLib\IRRMESH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Irr\IRRShared.cpp">
+      <Filter>AssetLib\IRRMESH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\IQM\IQMImporter.cpp">
+      <Filter>AssetLib\IQM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Irr\IRRLoader.cpp">
+      <Filter>AssetLib\IRR</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\LWO\LWOAnimation.cpp">
+      <Filter>AssetLib\LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\LWO\LWOBLoader.cpp">
+      <Filter>AssetLib\LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\LWO\LWOLoader.cpp">
+      <Filter>AssetLib\LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\LWO\LWOMaterial.cpp">
+      <Filter>AssetLib\LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\LWS\LWSLoader.cpp">
+      <Filter>AssetLib\LWS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\M3D\M3DImporter.cpp">
+      <Filter>AssetLib\M3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\M3D\M3DWrapper.cpp">
+      <Filter>AssetLib\M3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MD2\MD2Loader.cpp">
+      <Filter>AssetLib\MD2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MD3\MD3Loader.cpp">
+      <Filter>AssetLib\MD3</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MD5\MD5Loader.cpp">
+      <Filter>AssetLib\MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MD5\MD5Parser.cpp">
+      <Filter>AssetLib\MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MDC\MDCLoader.cpp">
+      <Filter>AssetLib\MDC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MDL\MDLLoader.cpp">
+      <Filter>AssetLib\MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MDL\MDLMaterialLoader.cpp">
+      <Filter>AssetLib\MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MDL\HalfLife\HL1MDLLoader.cpp">
+      <Filter>AssetLib\MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MDL\HalfLife\UniqueNameGenerator.cpp">
+      <Filter>AssetLib\MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\NFF\NFFLoader.cpp">
+      <Filter>AssetLib\NFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\NDO\NDOLoader.cpp">
+      <Filter>AssetLib\NDO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\OFF\OFFLoader.cpp">
+      <Filter>AssetLib\OFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Obj\ObjFileImporter.cpp">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Obj\ObjFileMtlImporter.cpp">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Obj\ObjFileParser.cpp">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Ogre\OgreImporter.cpp">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Ogre\OgreStructs.cpp">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Ogre\OgreBinarySerializer.cpp">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Ogre\OgreXmlSerializer.cpp">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Ogre\OgreMaterial.cpp">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\OpenGEX\OpenGEXImporter.cpp">
+      <Filter>AssetLib\OPENGEX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Ply\PlyLoader.cpp">
+      <Filter>AssetLib\PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Ply\PlyParser.cpp">
+      <Filter>AssetLib\PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MS3D\MS3DLoader.cpp">
+      <Filter>AssetLib\MS3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\COB\COBLoader.cpp">
+      <Filter>AssetLib\COB</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Blender\BlenderLoader.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Blender\BlenderDNA.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Blender\BlenderScene.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Blender\BlenderModifier.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Blender\BlenderBMesh.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Blender\BlenderTessellator.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Blender\BlenderCustomData.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\IFC\IFCLoader.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\IFC\IFCReaderGen1_2x3.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\IFC\IFCReaderGen2_2x3.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\IFC\IFCUtil.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\IFC\IFCGeometry.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\IFC\IFCMaterial.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\IFC\IFCProfile.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\IFC\IFCCurve.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\IFC\IFCBoolean.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\IFC\IFCOpenings.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\XGL\XGLLoader.cpp">
+      <Filter>AssetLib\XGL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\FBX\FBXImporter.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\FBX\FBXParser.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\FBX\FBXTokenizer.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\FBX\FBXConverter.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\FBX\FBXUtil.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\FBX\FBXDocument.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\FBX\FBXProperties.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\FBX\FBXMeshGeometry.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\FBX\FBXMaterial.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\FBX\FBXModel.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\FBX\FBXAnimation.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\FBX\FBXNodeAttribute.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\FBX\FBXDeformer.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\FBX\FBXBinaryTokenizer.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\FBX\FBXDocumentUtil.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Q3D\Q3DLoader.cpp">
+      <Filter>AssetLib\Q3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Q3BSP\Q3BSPFileParser.cpp">
+      <Filter>AssetLib\Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Q3BSP\Q3BSPFileImporter.cpp">
+      <Filter>AssetLib\Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Raw\RawLoader.cpp">
+      <Filter>AssetLib\RAW</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\SIB\SIBImporter.cpp">
+      <Filter>AssetLib\SIB</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\SMD\SMDLoader.cpp">
+      <Filter>AssetLib\SMD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\STL\STLLoader.cpp">
+      <Filter>AssetLib\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Terragen\TerragenLoader.cpp">
+      <Filter>AssetLib\TERRAGEN</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Unreal\UnrealLoader.cpp">
+      <Filter>AssetLib\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\X\XFileImporter.cpp">
+      <Filter>AssetLib\X</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\X\XFileParser.cpp">
+      <Filter>AssetLib\X</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\X3D\X3DImporter.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\X3D\X3DImporter_Geometry2D.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\X3D\X3DImporter_Geometry3D.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\X3D\X3DImporter_Group.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\X3D\X3DImporter_Light.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\X3D\X3DImporter_Metadata.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\X3D\X3DImporter_Networking.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\X3D\X3DImporter_Postprocess.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\X3D\X3DImporter_Rendering.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\X3D\X3DImporter_Shape.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\X3D\X3DImporter_Texturing.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\X3D\X3DGeoHelper.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\X3D\X3DXmlHelper.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\glTF\glTFCommon.cpp">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\glTF\glTFImporter.cpp">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\glTF2\glTF2Importer.cpp">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\3MF\XmlSerializer.cpp">
+      <Filter>AssetLib\3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\3MF\D3MFImporter.cpp">
+      <Filter>AssetLib\3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\3MF\D3MFOpcPackage.cpp">
+      <Filter>AssetLib\3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MMD\MMDImporter.cpp">
+      <Filter>AssetLib\MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MMD\MMDPmxParser.cpp">
+      <Filter>AssetLib\MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Obj\ObjExporter.cpp">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\OpenGEX\OpenGEXExporter.cpp">
+      <Filter>AssetLib\OPENGEX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Ply\PlyExporter.cpp">
+      <Filter>AssetLib\PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\3DS\3DSExporter.cpp">
+      <Filter>AssetLib\3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Assbin\AssbinExporter.cpp">
+      <Filter>AssetLib\ASSBIN</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Assbin\AssbinFileWriter.cpp">
+      <Filter>AssetLib\ASSBIN</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Assxml\AssxmlExporter.cpp">
+      <Filter>AssetLib\ASSXML</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Assxml\AssxmlFileWriter.cpp">
+      <Filter>AssetLib\ASSXML</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\M3D\M3DExporter.cpp">
+      <Filter>AssetLib\M3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Collada\ColladaExporter.cpp">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\FBX\FBXExporter.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\FBX\FBXExportNode.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\FBX\FBXExportProperty.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\STL\STLExporter.cpp">
+      <Filter>AssetLib\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\X\XFileExporter.cpp">
+      <Filter>AssetLib\X</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\X3D\X3DExporter.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\glTF\glTFExporter.cpp">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\glTF2\glTF2Exporter.cpp">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\3MF\D3MFExporter.cpp">
+      <Filter>AssetLib\3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Pbrt\PbrtExporter.cpp">
+      <Filter>AssetLib\PBRT</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Assjson\cencode.c">
+      <Filter>AssetLib\ASSJSON</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Assjson\json_exporter.cpp">
+      <Filter>AssetLib\ASSJSON</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Assjson\mesh_splitter.cpp">
+      <Filter>AssetLib\ASSJSON</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Step\StepExporter.cpp">
+      <Filter>AssetLib\STEP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\unzip\crypt.c">
+      <Filter>Contrib\unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\unzip\ioapi.c">
+      <Filter>Contrib\unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\unzip\unzip.c">
+      <Filter>Contrib\unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\poly2tri\poly2tri\common\shapes.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\poly2tri\poly2tri\sweep\advancing_front.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\poly2tri\poly2tri\sweep\cdt.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\poly2tri\poly2tri\sweep\sweep.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\poly2tri\poly2tri\sweep\sweep_context.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\clipper\clipper.cpp">
+      <Filter>Contrib\Clipper</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\openddlparser\code\OpenDDLParser.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\openddlparser\code\DDLNode.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\openddlparser\code\OpenDDLCommon.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\openddlparser\code\OpenDDLExport.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\openddlparser\code\Value.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\openddlparser\code\OpenDDLStream.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\Open3DGC\o3dgcArithmeticCodec.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\Open3DGC\o3dgcDynamicVectorDecoder.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\Open3DGC\o3dgcDynamicVectorEncoder.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\Open3DGC\o3dgcTools.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\Open3DGC\o3dgcTriangleFans.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\zip\src\zip.c">
+      <Filter>ziplib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\CApi\CInterfaceIOWrapper.h">
+      <Filter>CApi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\StbCommon.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\Compression.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\BaseProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\Importer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\ScenePrivate.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\DefaultProgressHandler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\PolyTools.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\Maybe.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\IFF.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\VertexTriangleAdjacency.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\ScenePreprocessor.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\TargetAnimation.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\simd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\DefaultLogger.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\LogStream.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\Logger.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\NullLogger.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\Win32DebugLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\FileLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Common\StdOStreamLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\BlobIOSystem.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\CalcTangentsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\ComputeUVMappingProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\ConvertToLHProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\EmbedTexturesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\FindDegenerates.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\FindInstancesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\FindInvalidDataProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\FixNormalsStep.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\DropFaceNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\GenFaceNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\GenVertexNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\PretransformVertices.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\ImproveCacheLocality.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\JoinVerticesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\LimitBoneWeightsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\RemoveRedundantMaterials.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\RemoveVCProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\SortByPTypeProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\SplitLargeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\TextureTransform.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\TriangulateProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\ValidateDataStructure.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\OptimizeGraph.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\OptimizeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\DeboneProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\ProcessHelper.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\MakeVerboseFormat.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\ScaleProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\ArmaturePopulate.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\GenBoundingBoxesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\PostProcessing\SplitByBoneCountProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Material\MaterialSystem.h">
+      <Filter>MaterialSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\STEPParser\STEPFileReader.h">
+      <Filter>STEPParser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\STEPParser\STEPFileEncoding.h">
+      <Filter>STEPParser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\AMF\AMFImporter.hpp">
+      <Filter>AssetLib\AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\AMF\AMFImporter_Node.hpp">
+      <Filter>AssetLib\AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\3DS\3DSHelper.h">
+      <Filter>AssetLib\3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\3DS\3DSLoader.h">
+      <Filter>AssetLib\3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\AC\ACLoader.h">
+      <Filter>AssetLib\AC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\ASE\ASELoader.h">
+      <Filter>AssetLib\ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\ASE\ASEParser.h">
+      <Filter>AssetLib\ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Assbin\AssbinLoader.h">
+      <Filter>AssetLib\ASSBIN</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\B3D\B3DImporter.h">
+      <Filter>AssetLib\B3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\BVH\BVHLoader.h">
+      <Filter>AssetLib\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Collada\ColladaHelper.h">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Collada\ColladaLoader.h">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Collada\ColladaParser.h">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\DXF\DXFLoader.h">
+      <Filter>AssetLib\DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\DXF\DXFHelper.h">
+      <Filter>AssetLib\DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\CSM\CSMLoader.h">
+      <Filter>AssetLib\CSM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\HMP\HMPFileData.h">
+      <Filter>AssetLib\HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\HMP\HMPLoader.h">
+      <Filter>AssetLib\HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\HMP\HalfLifeFileData.h">
+      <Filter>AssetLib\HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Irr\IRRMeshLoader.h">
+      <Filter>AssetLib\IRRMESH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Irr\IRRShared.h">
+      <Filter>AssetLib\IRRMESH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\IQM\iqm.h">
+      <Filter>AssetLib\IQM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\IQM\IQMImporter.h">
+      <Filter>AssetLib\IQM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Irr\IRRLoader.h">
+      <Filter>AssetLib\IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\LWO\LWOAnimation.h">
+      <Filter>AssetLib\LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\LWO\LWOFileData.h">
+      <Filter>AssetLib\LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\LWO\LWOLoader.h">
+      <Filter>AssetLib\LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\LWS\LWSLoader.h">
+      <Filter>AssetLib\LWS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\M3D\M3DMaterials.h">
+      <Filter>AssetLib\M3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\M3D\M3DImporter.h">
+      <Filter>AssetLib\M3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\M3D\M3DWrapper.h">
+      <Filter>AssetLib\M3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\M3D\m3d.h">
+      <Filter>AssetLib\M3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MD2\MD2FileData.h">
+      <Filter>AssetLib\MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MD2\MD2Loader.h">
+      <Filter>AssetLib\MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MD2\MD2NormalTable.h">
+      <Filter>AssetLib\MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MD3\MD3FileData.h">
+      <Filter>AssetLib\MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MD3\MD3Loader.h">
+      <Filter>AssetLib\MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MD5\MD5Loader.h">
+      <Filter>AssetLib\MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MD5\MD5Parser.h">
+      <Filter>AssetLib\MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MDC\MDCFileData.h">
+      <Filter>AssetLib\MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MDC\MDCLoader.h">
+      <Filter>AssetLib\MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MDC\MDCNormalTable.h">
+      <Filter>AssetLib\MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MDL\MDLDefaultColorMap.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MDL\MDLFileData.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MDL\MDLLoader.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MDL\HalfLife\HalfLifeMDLBaseHeader.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MDL\HalfLife\HL1FileData.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MDL\HalfLife\HL1MDLLoader.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MDL\HalfLife\HL1ImportDefinitions.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MDL\HalfLife\HL1ImportSettings.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MDL\HalfLife\HL1MeshTrivert.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MDL\HalfLife\LogFunctions.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MDL\HalfLife\UniqueNameGenerator.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\NFF\NFFLoader.h">
+      <Filter>AssetLib\NFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\NDO\NDOLoader.h">
+      <Filter>AssetLib\NDO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\OFF\OFFLoader.h">
+      <Filter>AssetLib\OFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Obj\ObjFileData.h">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Obj\ObjFileImporter.h">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Obj\ObjFileMtlImporter.h">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Obj\ObjFileParser.h">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Obj\ObjTools.h">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Ogre\OgreImporter.h">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Ogre\OgreStructs.h">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Ogre\OgreParsingUtils.h">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Ogre\OgreBinarySerializer.h">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Ogre\OgreXmlSerializer.h">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\OpenGEX\OpenGEXImporter.h">
+      <Filter>AssetLib\OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\OpenGEX\OpenGEXStructs.h">
+      <Filter>AssetLib\OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Ply\PlyLoader.h">
+      <Filter>AssetLib\PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Ply\PlyParser.h">
+      <Filter>AssetLib\PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MS3D\MS3DLoader.h">
+      <Filter>AssetLib\MS3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\COB\COBLoader.h">
+      <Filter>AssetLib\COB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\COB\COBScene.h">
+      <Filter>AssetLib\COB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Blender\BlenderLoader.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Blender\BlenderDNA.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Blender\BlenderDNA.inl">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Blender\BlenderScene.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Blender\BlenderSceneGen.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Blender\BlenderIntermediate.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Blender\BlenderModifier.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Blender\BlenderBMesh.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Blender\BlenderTessellator.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Blender\BlenderCustomData.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\IFC\IFCLoader.h">
+      <Filter>AssetLib\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\IFC\IFCReaderGen_2x3.h">
+      <Filter>AssetLib\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\IFC\IFCUtil.h">
+      <Filter>AssetLib\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\XGL\XGLLoader.h">
+      <Filter>AssetLib\XGL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\FBX\FBXCompileConfig.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\FBX\FBXImporter.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\FBX\FBXParser.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\FBX\FBXTokenizer.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\FBX\FBXImportSettings.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\FBX\FBXConverter.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\FBX\FBXUtil.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\FBX\FBXDocument.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\FBX\FBXProperties.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\FBX\FBXMeshGeometry.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\FBX\FBXCommon.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Q3D\Q3DLoader.h">
+      <Filter>AssetLib\Q3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Q3BSP\Q3BSPFileData.h">
+      <Filter>AssetLib\Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Q3BSP\Q3BSPFileParser.h">
+      <Filter>AssetLib\Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Q3BSP\Q3BSPFileImporter.h">
+      <Filter>AssetLib\Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Raw\RawLoader.h">
+      <Filter>AssetLib\RAW</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\SIB\SIBImporter.h">
+      <Filter>AssetLib\SIB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\SMD\SMDLoader.h">
+      <Filter>AssetLib\SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\STL\STLLoader.h">
+      <Filter>AssetLib\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Terragen\TerragenLoader.h">
+      <Filter>AssetLib\TERRAGEN</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Unreal\UnrealLoader.h">
+      <Filter>AssetLib\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\X\XFileHelper.h">
+      <Filter>AssetLib\X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\X\XFileImporter.h">
+      <Filter>AssetLib\X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\X\XFileParser.h">
+      <Filter>AssetLib\X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\X3D\X3DImporter.hpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\X3D\X3DImporter_Macro.hpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\X3D\X3DImporter_Node.hpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\X3D\X3DGeoHelper.h">
+      <Filter>AssetLib\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\X3D\X3DXmlHelper.h">
+      <Filter>AssetLib\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\glTF\glTFCommon.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\glTF\glTFAsset.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\glTF\glTFAsset.inl">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\glTF\glTFAssetWriter.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\glTF\glTFAssetWriter.inl">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\glTF\glTFImporter.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\glTF2\glTF2Asset.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\glTF2\glTF2Asset.inl">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\glTF2\glTF2AssetWriter.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\glTF2\glTF2AssetWriter.inl">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\glTF2\glTF2Importer.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\3MF\3MFTypes.h">
+      <Filter>AssetLib\3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\3MF\XmlSerializer.h">
+      <Filter>AssetLib\3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\3MF\D3MFImporter.h">
+      <Filter>AssetLib\3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\3MF\D3MFOpcPackage.h">
+      <Filter>AssetLib\3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\3MF\3MFXmlTags.h">
+      <Filter>AssetLib\3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MMD\MMDCpp14.h">
+      <Filter>AssetLib\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MMD\MMDImporter.h">
+      <Filter>AssetLib\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MMD\MMDPmdParser.h">
+      <Filter>AssetLib\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MMD\MMDPmxParser.h">
+      <Filter>AssetLib\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\MMD\MMDVmdParser.h">
+      <Filter>AssetLib\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Obj\ObjExporter.h">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\OpenGEX\OpenGEXExporter.h">
+      <Filter>AssetLib\OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Ply\PlyExporter.h">
+      <Filter>AssetLib\PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\3DS\3DSExporter.h">
+      <Filter>AssetLib\3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Assbin\AssbinExporter.h">
+      <Filter>AssetLib\ASSBIN</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Assbin\AssbinFileWriter.h">
+      <Filter>AssetLib\ASSBIN</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Assxml\AssxmlExporter.h">
+      <Filter>AssetLib\ASSXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Assxml\AssxmlFileWriter.h">
+      <Filter>AssetLib\ASSXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\M3D\M3DExporter.h">
+      <Filter>AssetLib\M3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Collada\ColladaExporter.h">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\FBX\FBXExporter.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\FBX\FBXExportNode.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\FBX\FBXExportProperty.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\STL\STLExporter.h">
+      <Filter>AssetLib\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\X\XFileExporter.h">
+      <Filter>AssetLib\X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\X3D\X3DExporter.hpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\glTF\glTFExporter.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\glTF2\glTF2Exporter.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\3MF\D3MFExporter.h">
+      <Filter>AssetLib\3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\Pbrt\PbrtExporter.h">
+      <Filter>AssetLib\PBRT</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Assjson\cencode.h">
+      <Filter>AssetLib\ASSJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Assjson\mesh_splitter.h">
+      <Filter>AssetLib\ASSJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\AssetLib\Step\StepExporter.h">
+      <Filter>AssetLib\STEP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\unzip\crypt.h">
+      <Filter>Contrib\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\unzip\ioapi.h">
+      <Filter>Contrib\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\unzip\unzip.h">
+      <Filter>Contrib\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\poly2tri\poly2tri\common\shapes.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\poly2tri\poly2tri\common\utils.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\poly2tri\poly2tri\sweep\advancing_front.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\poly2tri\poly2tri\sweep\cdt.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\poly2tri\poly2tri\sweep\sweep.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\poly2tri\poly2tri\sweep\sweep_context.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\clipper\clipper.hpp">
+      <Filter>Contrib\Clipper</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\openddlparser\include\openddlparser\OpenDDLParser.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\openddlparser\include\openddlparser\OpenDDLParserUtils.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\openddlparser\include\openddlparser\OpenDDLCommon.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\openddlparser\include\openddlparser\OpenDDLExport.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\openddlparser\include\openddlparser\OpenDDLStream.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\openddlparser\include\openddlparser\DDLNode.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\openddlparser\include\openddlparser\Value.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\Open3DGC\o3dgcAdjacencyInfo.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\Open3DGC\o3dgcArithmeticCodec.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\Open3DGC\o3dgcBinaryStream.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\Open3DGC\o3dgcCommon.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\Open3DGC\o3dgcDVEncodeParams.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\Open3DGC\o3dgcDynamicVectorDecoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\Open3DGC\o3dgcDynamicVectorEncoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\Open3DGC\o3dgcDynamicVector.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\Open3DGC\o3dgcFIFO.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\Open3DGC\o3dgcIndexedFaceSet.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\Open3DGC\o3dgcIndexedFaceSet.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\Open3DGC\o3dgcSC3DMCDecoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\Open3DGC\o3dgcSC3DMCDecoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\Open3DGC\o3dgcSC3DMCEncodeParams.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\Open3DGC\o3dgcSC3DMCEncoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\Open3DGC\o3dgcSC3DMCEncoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\Open3DGC\o3dgcTimer.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\Open3DGC\o3dgcTriangleFans.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\Open3DGC\o3dgcTriangleListDecoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\Open3DGC\o3dgcTriangleListDecoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\Open3DGC\o3dgcTriangleListEncoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\Open3DGC\o3dgcTriangleListEncoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\Open3DGC\o3dgcVector.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\Open3DGC\o3dgcVector.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\zip\src\miniz.h">
+      <Filter>ziplib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\zip\src\zip.h">
+      <Filter>ziplib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\pugixml\src\pugiconfig.hpp">
+      <Filter>Contrib\Pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\pugixml\src\pugixml.hpp">
+      <Filter>Contrib\Pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\contrib\stb\stb_image.h">
+      <Filter>Contrib\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\anim.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\aabb.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\ai_assert.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\camera.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\color4.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\color4.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\Temp\include\assimp\config.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\ColladaMetaData.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\commonMetaData.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\defs.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\cfileio.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\light.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\material.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\material.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\matrix3x3.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\matrix3x3.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\matrix4x4.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\matrix4x4.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\mesh.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\ObjMaterial.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\pbrmaterial.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\GltfMaterial.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\postprocess.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\quaternion.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\quaternion.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\scene.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\metadata.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\texture.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\types.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\vector2.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\vector2.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\vector3.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\vector3.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\version.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\cimport.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\importerdesc.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\Importer.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\ProgressHandler.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\IOStream.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\IOSystem.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\cexport.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\Exporter.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\DefaultIOStream.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\DefaultIOSystem.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\ZipArchiveIOSystem.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\SceneCombiner.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\fast_atof.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\qnan.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\BaseImporter.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\Hash.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\MemoryIOWrapper.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\ParsingUtils.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\StreamReader.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\StreamWriter.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\StringComparison.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\StringUtils.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\SGSpatialSort.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\GenericProperty.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\SpatialSort.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\SkeletonMeshBuilder.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\SmallVector.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\SmoothingGroups.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\SmoothingGroups.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\StandardShapes.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\RemoveComments.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\Subdivision.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\Vertex.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\LineSplitter.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\TinyFormatter.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\Profiler.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\LogAux.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\Bitmap.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\XMLTools.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\IOStreamBuffer.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\CreateAnimMesh.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\XmlParser.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\MathFunctions.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\Exceptional.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\ByteSwapper.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\Base64.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\Compiler\pushpack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\Compiler\poppack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\include\assimp\Compiler\pstdint.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\VisualStudio\BowValley\ComputerGraphics\OpenGL\OpenGL_Libs\ASSIMP\code\res\assimp.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="AssetLib">
+      <UniqueIdentifier>{5A4C5040-54C1-380E-9C62-B2CFC7C7B6BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\3D">
+      <UniqueIdentifier>{A49135E5-CEC1-3CB1-A8F1-0C92CE66A148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\3DS">
+      <UniqueIdentifier>{8C8D656E-A64C-3524-B0E2-1EA5183A8469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\3MF">
+      <UniqueIdentifier>{7781CF8C-1449-3F8D-8E69-FC6EA5F6AF8E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\AC">
+      <UniqueIdentifier>{282EAEA8-5966-3110-B830-2BC6EC142273}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\AMF">
+      <UniqueIdentifier>{525CB299-3ACD-38AD-8726-DB550F206AEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\ASE">
+      <UniqueIdentifier>{D3896A76-0B10-3F78-AF32-16BE08BB159E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\ASSBIN">
+      <UniqueIdentifier>{59F44B6F-42ED-3095-9FB4-53BAF0500B8D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\ASSJSON">
+      <UniqueIdentifier>{BBA6A3DF-5A3B-379F-86D5-F5B94A1C620E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\ASSXML">
+      <UniqueIdentifier>{4809B3A7-2BBE-3660-AF35-7FD81FEAFD36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\B3D">
+      <UniqueIdentifier>{4F99A859-45AA-3E10-BA47-83A8350DCA1B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\BLEND">
+      <UniqueIdentifier>{5FCB8D6C-70CE-3558-A635-7366DDC29332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\BVH">
+      <UniqueIdentifier>{4CC4973D-F2F5-3F0F-AB2B-E4A08D597B17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\COB">
+      <UniqueIdentifier>{1CC80224-111B-34D4-A4F7-562E29C08CD3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\COLLADA">
+      <UniqueIdentifier>{88A5E287-4593-3505-B368-57F6D91B6A86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\CSM">
+      <UniqueIdentifier>{1655F7B0-1877-3DE2-AB81-FCCDB5FB5E0D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\DXF">
+      <UniqueIdentifier>{8DE3B4F5-7ACC-3BC6-8DDC-BFD89E711E02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\FBX">
+      <UniqueIdentifier>{E5C2C592-0F2E-3DC3-BC9C-B9C06547BF1E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\GLTF">
+      <UniqueIdentifier>{974C3B04-2694-37A5-90CC-F383D784D673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\HMP">
+      <UniqueIdentifier>{EFBB43E6-6D4F-305B-B8FE-8740A3E34565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\IFC">
+      <UniqueIdentifier>{C6F8E049-1DD5-348B-B759-6FBC10BD3152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\IQM">
+      <UniqueIdentifier>{C97F9F51-E012-3BA6-A583-07B8D708AFC9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\IRR">
+      <UniqueIdentifier>{1222272C-1C8F-362B-BF87-B170EDE2C38D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\IRRMESH">
+      <UniqueIdentifier>{E29F9CCF-DBFE-35B2-A453-6D4F0CD79389}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\LWO">
+      <UniqueIdentifier>{FD4AEABF-434C-327D-A754-FE693D6A6860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\LWS">
+      <UniqueIdentifier>{986BDDA2-2464-3EFF-805F-65F1B2B01D39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\M3D">
+      <UniqueIdentifier>{117EBA3E-5E8C-3576-9D1C-5086D632CF02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MD2">
+      <UniqueIdentifier>{E8B80300-1B9E-3C78-939B-59664FAB843B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MD3">
+      <UniqueIdentifier>{AB966BEC-D108-3A94-B89B-01EDA24BD030}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MD5">
+      <UniqueIdentifier>{2F57BFFE-B848-323D-A52F-467586030D7B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MDC">
+      <UniqueIdentifier>{01198610-3450-3CF6-BA09-7B26ADAE230C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MDL">
+      <UniqueIdentifier>{76CAF150-86D9-3727-B816-B6344D7E50F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MMD">
+      <UniqueIdentifier>{2695F37D-704C-302C-B2A5-1D3B13A7095A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MS3D">
+      <UniqueIdentifier>{761354FA-BD3D-30DC-A7D7-B98659B2C9E5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\NDO">
+      <UniqueIdentifier>{C96A4122-2E8D-3818-B9F0-46B7D7C780CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\NFF">
+      <UniqueIdentifier>{CF4181F8-19AA-3CCF-BFBB-017811B16AAC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\OBJ">
+      <UniqueIdentifier>{3AD74982-6F1C-3690-A300-113432F875C3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\OFF">
+      <UniqueIdentifier>{4E492462-E497-3D4E-BBB4-7CF4FA4DBCAC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\OGRE">
+      <UniqueIdentifier>{9BC010A0-8FB6-3B36-A864-2E49F3BFD649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\OPENGEX">
+      <UniqueIdentifier>{0CAE95F7-0424-30B8-B8C5-65507820F4A3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\PBRT">
+      <UniqueIdentifier>{85B6F337-9987-335E-BF92-78BBD070309F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\PLY">
+      <UniqueIdentifier>{3E3BD56D-4E00-35FE-9FC7-339B4D7F70D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\Q3BSP">
+      <UniqueIdentifier>{C8877F5C-98B5-34DD-B7A4-914B1A6C621A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\Q3D">
+      <UniqueIdentifier>{47FA1510-326D-3A46-8CA0-7A86ED74BFC9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\RAW">
+      <UniqueIdentifier>{21DAF842-2FCB-3592-9ABC-9B632EDBC7BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\SIB">
+      <UniqueIdentifier>{D1EAF367-D5D9-3C71-8B6F-22F953DD36F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\SMD">
+      <UniqueIdentifier>{7F91C778-1688-32E2-83BF-CD5DDB863F86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\STEP">
+      <UniqueIdentifier>{1A77F640-3CAF-3043-8A95-E152838B5AE8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\STL">
+      <UniqueIdentifier>{AF6E957E-A649-3A82-A3D0-BA9FAAF17C97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\TERRAGEN">
+      <UniqueIdentifier>{EC5B2288-3454-3B6D-B395-77E733DE7164}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\X">
+      <UniqueIdentifier>{E7603932-29B0-3CDA-A393-F009A0348303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\X3D">
+      <UniqueIdentifier>{47868DF9-3C80-3C3E-8FCD-EB40EB19D6C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\XGL">
+      <UniqueIdentifier>{39EE232E-4E39-3979-A9AC-3A84D3429838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CApi">
+      <UniqueIdentifier>{EC94AF96-A3A0-3B39-9B66-91CCDC34136D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{9148C801-972D-3FE1-ACA2-DBBC0288393B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compiler">
+      <UniqueIdentifier>{C11401B8-8CC1-326B-997F-2BBA5B44E6D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib">
+      <UniqueIdentifier>{B6E55659-1E99-3A23-A515-9D18FFE4753F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\Clipper">
+      <UniqueIdentifier>{C92F3021-3FCA-3A7D-888C-3BAA73C81EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\Poly2Tri">
+      <UniqueIdentifier>{FB7093ED-FB34-3487-BB2F-69E1C4501252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\Pugixml">
+      <UniqueIdentifier>{14353DD1-6B21-3EF2-A227-5536CB7097A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\open3dgc">
+      <UniqueIdentifier>{9C6DDF6D-3DCD-3504-8D2A-BA8C58DED881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\openddl_parser">
+      <UniqueIdentifier>{72349993-069C-3FBF-BCFC-00501F9373E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\stb">
+      <UniqueIdentifier>{DB106922-42CB-3BB2-9B89-886BE77DA594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\unzip">
+      <UniqueIdentifier>{B7676704-34B6-3CA6-BAFE-337171EF666A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exporter">
+      <UniqueIdentifier>{A762233E-7837-309B-83FA-0435CE364F3A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{DFECE36A-777A-3481-822F-75FDABFEE8BD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MaterialSystem">
+      <UniqueIdentifier>{C061E548-5A24-31AA-B1EF-E6003A2215A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostProcessing">
+      <UniqueIdentifier>{698A50B2-C0EC-30F4-84D5-EBD97A154BD0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STEPParser">
+      <UniqueIdentifier>{AD65C519-8520-3C9A-A079-FE0F6EB99B5A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{BB096CDC-89E1-34EE-898B-806C236803F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{2AB60E16-E817-3157-BC57-6F0919AE153B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\assimp">
+      <UniqueIdentifier>{4C340602-4477-37CE-A794-D30EA4D3EFA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ziplib">
+      <UniqueIdentifier>{A5092485-074E-3449-8F74-C76D891B37B7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
